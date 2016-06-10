@@ -57,6 +57,7 @@
   <!--project path="device/generic/x86" name="device/generic/x86" groups="pdk" /> -->
   <!--project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" /> -->
   <!--project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" /> -->
+  <project path="device/samsung/coreprimelte" name="yang-le/android_device_samsung_coreprimelte" remote="github" revision="android-5.1" />
   <!--project path="device/sample" name="device/sample" groups="pdk" /> -->
   <!--project path="docs/source.android.com" name="platform/docs/source.android.com" /> -->
   <!--project path="external/aac" name="platform/external/aac" groups="pdk" /> -->
