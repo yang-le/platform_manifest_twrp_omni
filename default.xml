@@ -7,8 +7,12 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="aosp"
+  <!-- <remote  name="aosp"
            fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" /> -->
+
+  <remote  name="aosp"
+           fetch="git://aosp.tuna.tsinghua.edu.cn/android"
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
@@ -57,6 +61,7 @@
   <!-- project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" /> -->
   <!-- project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" /> -->
   <!-- project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" /> -->
+  <project path="device/samsung/coreprimelte" name="yang-le/android_device_samsung_coreprimelte" remote="github" revision="android-5.1" />
   <!-- project path="device/sample" name="device/sample" groups="pdk" /> -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="TeamWin" revision="android-6.0" />
   <!-- project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" /> -->
