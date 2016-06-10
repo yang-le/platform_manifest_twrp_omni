@@ -7,8 +7,11 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="aosp"
+<!--  <remote  name="aosp"
            fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" /> -->
+  <remote  name="aosp"
+           fetch="git://aosp.tuna.tsinghua.edu.cn/android"
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
